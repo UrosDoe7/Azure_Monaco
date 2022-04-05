@@ -1,0 +1,26 @@
+#!/bin/bash
+#design by UDJUKIC Dynatrace
+# version beta
+
+. /env.sh
+DIR_MONACO="MONACO_Synthetic"
+END_ENV=$(($NBENV-$START_ENV))
+response=no
+
+
+i=$START_ENV
+while [ $i -lt $END_ENV ]
+do
+     
+	echo MyTenant=$MyTenant
+	echo MyToken=$MyToken
+        
+	
+    export SyntheticHTTP=`echo $list_DomainName | cut -d" " -f$(( $i + 1 ))`
+       
+	echo SyntheticHTTP=$SyntheticHTTP
+	echo EnableSynthetic=$EnableSynthetic
+	
+	i=$(($i + 1))
+
+done
