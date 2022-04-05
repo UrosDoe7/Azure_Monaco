@@ -16,7 +16,7 @@ do
 	echo MyToken=$MyToken
         
 	
-    export SyntheticHTTP=`echo $list_DomainName | cut -d" " -f$(( $i + 1 ))`
+    export SyntheticHTTP=`echo $list_url | cut -d" " -f$(( $i + 1 ))`
        
 	echo SyntheticHTTP=$SyntheticHTTP
 	echo EnableSynthetic=$EnableSynthetic
