@@ -4,7 +4,7 @@
 
 . /env.sh
 DIR_MONACO="MONACO_Synthetic"
-END_ENV=$(($NBENV-$START_ENV))
+END_ENV=$(($NBENV-$START_ENV)) #NBENV représente le nombre d'itération/ d'incrémentation soit en fonction des urls, ici si NBENV = 3 alors 4 urls
 response=no
 
 
