@@ -1,0 +1,4 @@
+robot/synthetic-monitor:
+  - name: "robot/synthetic-monitor"
+  - env-url: "https://{{.Env.MyTenant}}"
+  - env-token-name: "DT_API_TOKEN" # ou MyToken

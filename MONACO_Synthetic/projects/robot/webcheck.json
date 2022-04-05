@@ -1,0 +1,63 @@
+{
+ "anomalyDetection": {
+  "loadingTimeThresholds": {
+   "enabled": false,
+   "thresholds": [
+    {
+     "type": "TOTAL",
+     "valueMs": 0
+    }
+   ]
+  },
+  "outageHandling": {
+   "globalOutage": true,
+   "localOutage": false,
+   "localOutagePolicy": {
+    "affectedLocations": 1,
+    "consecutiveRuns": 3
+   }
+  }
+ },
+ "automaticallyAssignedApps": [],
+ "createdFrom": "API",
+ "enabled": "{{.enable}}",
+ "entityId": "HTTP_CHECK-XXXX",
+ "frequencyMin": 5,
+ "locations": [
+  "SYNTHETIC_LOCATION-5B2538D992C0B139"
+ ],
+ "name": "{{.name}}",
+ "requests": [
+  {
+   "entityId": "HTTP_CHECK_STEP-XXXX",
+   "name": "{{.name}}",
+   "sequenceNumber": 1
+  }
+ ],
+ "script": {
+  "requests": [
+   {
+    "configuration": {
+     "acceptAnyCertificate": true,
+     "followRedirects": true
+    },
+    "description": "{{.name}}",
+    "method": "GET",
+    "url": "{{.url}}",
+    "validation": {
+     "rules": [
+      {
+       "passIfFound": false,
+       "type": "httpStatusesList",
+       "value": "\u003e=400"
+      }
+     ],
+     "rulesChaining": "or"
+    }
+   }
+  ],
+  "version": "1.0"
+ },
+ "tags": [],
+ "type": "HTTP"
+}
