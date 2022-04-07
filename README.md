@@ -7,3 +7,5 @@ Step 2 : JSON pour donner forme/structure via la pipeline CI/CD; Alimenter avec 
          Exemple : avec le "name":"{{.name}}"
          
 Step 3 : Edition du shell "loop.sh", afin de créer une boucle sur les urls qui feront office chacunes de scénarios HTTPMonitor Synthetic.
+
+NotaBene: pour de plus d'exercices et template MONACO https://github.com/JLLormeau/lab-environment-for-dynatrace-training#lab-environment-for-dynatrace-training
