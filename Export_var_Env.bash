@@ -1,0 +1,10 @@
+export NEW_CLI=1
+export MyTenant=abcd.live.dynatrace.com
+export MyToken=xxxx
+export Appname=easytravel00
+export Hostname=dynatracelab03.francecentral.cloudapp.azure.com
+export Email=uros.djukic@dynatrace.com
+export EnableSynthetic=true
+export EnableSynthetic=false
+export Owner=$Email
+export app_enable=true
