@@ -1,7 +1,0 @@
-config:
-- detect-rule1: detect-rules.json
-
-detect-rule1:
-- name: "{{.Env.Appname}}"
-- pattern: "{{.Env.Appname}}-www"
-- applicationId: "/application-web/app-1.id"
