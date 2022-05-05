@@ -1,4 +1,0 @@
-robot/synthetic-monitor:
-  - name: "projects/robot"
-  - env-url: "https://PublicEndpointDYNATRACE/e/XXX"
-  - env-token-name: "DT_API_TOKEN"
