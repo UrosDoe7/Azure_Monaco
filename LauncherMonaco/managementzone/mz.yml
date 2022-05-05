@@ -1,4 +1,0 @@
-config:
-    - mz-1: "lab_mz.json"
-mz-1:
-    - name: "{{.Env.Appname}}"
