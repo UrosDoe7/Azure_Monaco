@@ -1,4 +1,4 @@
 free_trial:
     - name: "lab_dynatrace"
-    - env-url: "https://oyw60024.sprint.dynatracelabs.com/"
+    - env-url: "https://XXXX.sprint.dynatracelabs.com/"
     - env-token-name: "MyToken"
