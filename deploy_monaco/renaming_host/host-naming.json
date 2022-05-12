@@ -7,7 +7,7 @@
    0
   ]
  },
- "nameFormat": "[{HostGroup:Name}] - {Host:DetectedName/([^\\.]++)}",
+ "nameFormat": "[{HostGroup:Name}] - {Host:DetectedName/([^\\.]++)} DGFIP",
  "rules": [
   {
    "comparisonInfo": {
