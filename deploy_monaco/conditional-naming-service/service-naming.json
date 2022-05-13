@@ -7,7 +7,7 @@
    0
   ]
  },
- "nameFormat": "[{HostGroup:Name}] - {Service:DetectedName}",
+ "nameFormat": "[{HostGroup:Name}] - {Service:DetectedName} APS",
  "rules": [
   {
    "comparisonInfo": {
