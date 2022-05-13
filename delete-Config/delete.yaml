@@ -1,5 +1,0 @@
-delete:
- - "renaming_host/host-naming"
- - "conditional-naming-service/service-naming-nginx"
- - "conditional-naming-service/service-naming"
- 
