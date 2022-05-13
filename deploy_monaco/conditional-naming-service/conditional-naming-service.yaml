@@ -5,4 +5,4 @@ service-naming-nginx:
 - name: service-naming-nginx
 service-naming:
 - name: service-naming
-- variable : service-naming
+- variable: service-naming
