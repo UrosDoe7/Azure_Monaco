@@ -1,6 +1,6 @@
 {
  "displayName": "{{.name}}",
- "enabled": {{.boolean}},
+ "enabled": {{.variable}},
  "metadata": {
   "clusterVersion": "1.215.107.20210414-181420",
   "configurationVersions": [
