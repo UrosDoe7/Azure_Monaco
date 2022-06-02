@@ -7,7 +7,7 @@
    0
   ]
  },
- "nameFormat": "[{HostGroup:Name}] - {Host:DetectedName/([^\\.]++)} toto TEST",
+ "nameFormat": "[{HostGroup:Name}] - {Host:DetectedName/([^\\.]++)}",
  "rules": [
   {
    "comparisonInfo": {
