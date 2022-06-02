@@ -1,5 +1,5 @@
 config:
-- Myawesomedashboard: "Myawesomedashboard.json"
+- Myawesomedashboard: "MyAwesomeDash.json"
 Myawesomedashboard:
 - owner: "{{.Env.Email}}"
 
