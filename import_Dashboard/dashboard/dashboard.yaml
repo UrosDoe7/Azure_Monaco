@@ -1,6 +1,6 @@
 config:
 - Myawesomedashboard: "MyAwesomeDash.json"
 Myawesomedashboard:
-- name: "My awesome dashboard for {{.Env.Appname}} !"
+- name: "My awesome dashboard for {{.Env.HostGroup}} !"
 - owner: "{{.Env.Email}}"
 
