@@ -1,4 +1,4 @@
-demo_dgfip:
+demo_demo:
     - name: "toto"
     - env-url: "https://{.Env.MyTenant}"
     - env-token-name: "MyToken"
