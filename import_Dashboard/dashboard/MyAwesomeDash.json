@@ -6,7 +6,7 @@
     "clusterVersion": "1.234.118.20220211-090346"
   },
   "dashboardMetadata": {
-    "name": "💊 Etat de santé globale - QDF",
+    "name": "{{.name}}",
     "shared": true,
     "owner": "{{.owner}}",
     "dashboardFilter": {
