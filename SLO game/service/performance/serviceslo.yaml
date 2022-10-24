@@ -1,0 +1,21 @@
+config:
+
+- Service-availability: Service-availability.json
+- Service-performance: Service-performance.json
+
+
+Service-performance:
+- name: "{{.Env.SLO_PREFIX}} - Service - performance"
+- slo_prefix: "{{.Env.SLO_PREFIX}}"
+- mzid: "{{.Env.MZID}}"
+- target_threshold: "95"
+- timeframe: "-1w"
+- warning_threshold: "98"
+#linux or Windows - expression via entitySelector
+Service-availability:
+- name: "{{.Env.SLO_PREFIX}} - Service - availability"
+- slo_prefix: "{{.Env.SLO_PREFIX}}"
+- mzid: "{{.Env.MZID}}"
+- target_threshold: "95"
+- timeframe: "-1w"
+- warning_threshold: "98"
