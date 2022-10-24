@@ -8,7 +8,7 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(SERVICE_METHOD),fromRelationship.isServiceMethodOfService(type(SERVICE)),mzId({{.mzid}}),
+ "filter": "type(SERVICE_METHOD),fromRelationship.isServiceMethodOfService(type(SERVICE)),mzId({{.mzid}})",
  "metricDenominator": "",
 "metricExpression": "((builtin:service.keyRequest.response.server:avg:partition("responsetime",value("good",lt(5000))):splitBy():count:default(0))/(builtin:service.keyRequest.response.server:avg:splitBy():count)*(100))",
  "metricKey": "func:slo.{{.slo_prefix}}___service___perf",
