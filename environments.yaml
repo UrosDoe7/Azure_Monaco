@@ -1,4 +1,4 @@
-example:
+free_trial:
     - name: "lab_dynatrace"
     - env-url: "https://{{.Env.MyTenant}}"
     - env-token-name: "MyToken"
