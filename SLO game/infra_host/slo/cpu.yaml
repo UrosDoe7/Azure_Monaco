@@ -4,7 +4,6 @@ config:
 InfraCpu:
 - name: "{{.Env.SLO_PREFIX}} - Infrastructure - cpu idle (host)"
 - namezone: "{{.Env.SLO_PREFIX}}"
-- tata: "{{.Env.MZID}}"
 - target_threshold: "10"
 - timeframe: "-1w"
 - warning_threshold: "20"
