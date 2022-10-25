@@ -1,5 +1,5 @@
 {
- "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.slo_prefix}}___infra___resourceCPU_host",
+ "burnRateMetricKey": "func:slo.errorBudgetBurnRate.{{.namezone}}___infra___resourceCPU_host",
  "denominatorValue": 0,
  "description": " ",
  "enabled": true,
@@ -8,10 +8,10 @@
   "fastBurnThreshold": 10
  },
  "evaluationType": "AGGREGATE",
- "filter": "type(HOST),mzId({{.mzid}})",
+ "filter": "type(HOST),mzId({{.tata}})",
  "metricDenominator": "",
  "metricExpression": "builtin:host.cpu.idle:splitBy()",
- "metricKey": "func:slo.{{.slo_prefix}}___infra___resourceCPU_host",
+ "metricKey": "func:slo.{{.namezone}}___infra___resourceCPU_host",
  "metricNumerator": "",
  "metricRate": "",
  "name": "{{.name}}",
