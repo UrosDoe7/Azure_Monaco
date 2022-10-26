@@ -2,9 +2,9 @@ config:
 - InfraCpu: cpu.json
 
 InfraCpu:
-- name: "{SLO_PREFIX} - Infrastructure - cpu idle (host)"
+- name: "{{.Env.SLO_PREFIX}} - Infrastructure - cpu idle (host)"
 - slo_prefix: "{{.Env.SLO_PREFIX}}"
-- mzid: "{MZID}"
+- mzid: "{{.Env.MZID}}"
 - target_threshold: "10"
 - timeframe: "-1w"
 - warning_threshold: "20"
