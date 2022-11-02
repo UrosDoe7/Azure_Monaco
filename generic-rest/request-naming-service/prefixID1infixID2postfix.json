@@ -1,0 +1,76 @@
+{
+ "conditions": [
+  {
+   "attribute": "WEBREQUEST_URL_PATH",
+   "comparisonInfo": {
+    "caseSensitive": false,
+    "comparison": "REGEX_MATCHES",
+    "negate": false,
+    "type": "STRING",
+    "value": "\/\\d++\/[\/\\D-]*+\\d++",
+    "values": null
+   }
+  },
+  {
+   "attribute": "SERVICE_TAG",
+   "comparisonInfo": {
+    "comparison": "TAG_KEY_EQUALS",
+    "negate": false,
+    "type": "TAG",
+    "value": {
+     "context": "CONTEXTLESS",
+     "key": "{{ .serviceTag }}"
+    },
+    "values": null
+   }
+  }
+ ],
+ "enabled": true,
+ "order": "{{ .order }}",
+ "managementZones": [],
+ "metadata": {
+  "clusterVersion": "1.220.96.20210701-171424",
+  "configurationVersions": [
+   0
+  ]
+ },
+ "namingPattern": "{{.name}}",
+ "placeholders": [
+  {
+   "aggregation": null,
+   "attribute": "WEBREQUEST_URL_PATH",   
+   "delimiterOrRegex": "^(.*?/)\\d+",
+   "endDelimiter": null,
+   "kind": "REGEX_EXTRACTION",
+   "name": "prefix",
+   "normalization": "ORIGINAL",
+   "requestAttribute": null,
+   "source": null,
+   "useFromChildCalls": false
+  },
+  {
+    "aggregation": null,
+    "attribute": "WEBREQUEST_URL_PATH",   
+    "delimiterOrRegex": "\/\\d++(\/[\/\\D-]*+)\\d++",
+    "endDelimiter": null,
+    "kind": "REGEX_EXTRACTION",
+    "name": "infix",
+    "normalization": "ORIGINAL",
+    "requestAttribute": null,
+    "source": null,
+    "useFromChildCalls": false
+   },
+   {
+   "aggregation": null,
+   "attribute": "WEBREQUEST_URL_PATH",
+   "delimiterOrRegex": "\/\\d++(\/[^\/]*+)$",
+   "endDelimiter": null,
+   "kind": "REGEX_EXTRACTION",
+   "name": "postfix",
+   "normalization": "ORIGINAL",
+   "requestAttribute": null,
+   "source": null,
+   "useFromChildCalls": false
+  }
+ ]
+}
