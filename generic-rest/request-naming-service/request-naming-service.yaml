@@ -1,0 +1,13 @@
+config:
+- prefixID1infixID2postfix: prefixID1infixID2postfix.json
+- prefixIDpostfix: prefixIDpostfix.json
+
+prefixID1infixID2postfix:
+- name: '{prefix}[ID]{infix}[ID]{postfix}'
+- serviceTag: "REST_ID"
+- order: 'REST 00'
+
+prefixIDpostfix:
+- name: '{prefix}[ID]{postfix}'
+- serviceTag: "REST_ID"
+- order: 'REST 10'
