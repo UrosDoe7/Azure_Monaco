@@ -39,7 +39,7 @@
   {
    "aggregation": null,
    "attribute": "WEBREQUEST_URL_PATH",   
-   "delimiterOrRegex": "^(.*?\\?)",
+   "delimiterOrRegex": "\\d[0-9]{1,}",
    "endDelimiter": null,
    "kind": "REGEX_EXTRACTION",
    "name": "prefix",
