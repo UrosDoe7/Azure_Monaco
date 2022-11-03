@@ -7,7 +7,7 @@
     "comparison": "REGEX_MATCHES",
     "negate": false,
     "type": "STRING",
-    "value": "journeyId=\d[0-9]{1,}",
+    "value": "journeyId=\\d[0-9]{1,}",
     "values": null
    }
   },
