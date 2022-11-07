@@ -3,5 +3,5 @@ config:
 
 prefixID:
 - name: '{prefix}[ID]'
-- serviceTag: "REST_ID"
+- serviceTag: "TOTO_ID"
 - order: 'REST 00'
