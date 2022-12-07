@@ -1,39 +1,33 @@
 config:
-- Application-availability(browser): Application-availability(browser).json
-- Application-availability(http): Application-availability(http).json
-- Application-performance: Application-performance.json
-- Service-availability: Service-availability.json
-- Service-performance: Service-performance.json
+- App_apdex: App_apdex.json
+- Service_avail: Service_avail.json
+- Service_perf: Service_perf.json
 #- Infra-availability(process): Infra-availability(process).json
-- Infra-availability(host): Infra-availability(host).json
-- Infra-resourceCPU(host): Infra-resourceCPU(host).json
-- Infra-resourceMemory(host): Infra-resourceMemory(host).json
-Application-availability(browser):
-- name: {{.Env.MZ}} - Application - availability (browser) 
-- mz: {{.Env.MZ}}
-Application-availability(http):
-- name: {{.Env.MZ}} - Application - availability (http) 
-- mz: {{.Env.MZ}}
-Application-performance:
+- Infra_avail(host): Infra_avail(host).json
+- Infra_resourceCPU(host): Infra_resourceCPU(host).json
+- Infra_Memory(host): Infra_Memory(host).json
+- Infra_avail(process):Infra_avail(process).json
+
+App_apdex:
 - name: {{.Env.MZ}} - Application - performance
 - mz: {{.Env.MZ}}
-Service-performance:
+Service_perf:
 - name: {{.Env.MZ}} - Service - performance
 - mz: {{.Env.MZ}}
 #linux - metricId: "/calculated-metrics-service/requestcount_sloperf.id"
 #windows - metricId: "/todeploy/calculated-metrics-service/requestcount_sloperf.id"
-Service-availability:
+Service_avail:
 - name: {{.Env.MZ}} - Service - availability
 - mz: {{.Env.MZ}}
-Infra-availability(process):
+Infra_avail(process):
 - name: {{.Env.MZ}} - Infrastructure - availability (process)
 - mz: {{.Env.MZ}}
-Infra-availability(host):
+Infra_avail(host):
 - name: {{.Env.MZ}} - Infrastructure - availability (host)
 - mz: {{.Env.MZ}}
-Infra-resourceCPU(host):
+Infra_resourceCPU(host):
 - name: {{.Env.MZ}} - Infrastructure - cpu idle (host)
 - mz: {{.Env.MZ}}
-Infra-resourceMemory(host):
+Infra_Memory(host):
 - name: {{.Env.MZ}} - Infrastructure - memory available (host)
 - mz: {{.Env.MZ}}
