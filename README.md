@@ -28,5 +28,5 @@ Export the variable:
 Deploy the configuration:
 
 	cd;cd dynatrace-lab/lab-onboarding;
-	./monaco deploy -e=environments.yaml 03-SLO/deploy-slo
+	./monaco deploy -e=environments.yaml deploy-slo
 
