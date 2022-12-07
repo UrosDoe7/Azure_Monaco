@@ -1,33 +1,33 @@
 config:
-- App_apdex: App_apdex.json
-- Service_avail: Service_avail.json
-- Service_perf: Service_perf.json
+- Appapdex: App-apdex.json
+- Serviceavail: Service-avail.json
+- Serviceperf: Service-perf.json
 #- Infra-availability(process): Infra-availability(process).json
-- Infra_avail(host): Infra_avail(host).json
-- Infra_resourceCPU(host): Infra_resourceCPU(host).json
-- Infra_Memory(host): Infra_Memory(host).json
-- Infra_avail(process):Infra_avail(process).json
+- Infraavail(host): Infra-avail(host).json
+- InfraresourceCPU(host): Infra-resourceCPU(host).json
+- InfraMemory(host): Infra-Memory(host).json
+- Infraavail(process):Infra-avail(process).json
 
-App_apdex:
-- name: {{.Env.MZ}} - Application - performance
-- mz: {{.Env.MZ}}
-Service_perf:
-- name: {{.Env.MZ}} - Service - performance
-- mz: {{.Env.MZ}}
+Appapdex:
+- name: {{.Env.mz}} - Application - performance
+- mz: {{.Env.mz}}
+Serviceperf:
+- name: {{.Env.mz}} - Service - performance
+- mz: {{.Env.mz}}
 #linux - metricId: "/calculated-metrics-service/requestcount_sloperf.id"
 #windows - metricId: "/todeploy/calculated-metrics-service/requestcount_sloperf.id"
-Service_avail:
-- name: {{.Env.MZ}} - Service - availability
-- mz: {{.Env.MZ}}
-Infra_avail(process):
-- name: {{.Env.MZ}} - Infrastructure - availability (process)
-- mz: {{.Env.MZ}}
-Infra_avail(host):
-- name: {{.Env.MZ}} - Infrastructure - availability (host)
-- mz: {{.Env.MZ}}
-Infra_resourceCPU(host):
-- name: {{.Env.MZ}} - Infrastructure - cpu idle (host)
-- mz: {{.Env.MZ}}
-Infra_Memory(host):
-- name: {{.Env.MZ}} - Infrastructure - memory available (host)
-- mz: {{.Env.MZ}}
+Serviceavail:
+- name: {{.Env.mz}} - Service - availability
+- mz: {{.Env.mz}}
+Infraavail(process):
+- name: {{.Env.mz}} - Infrastructure - availability (process)
+- mz: {{.Env.mz}}
+Infraavail(host):
+- name: {{.Env.mz}} - Infrastructure - availability (host)
+- mz: {{.Env.mz}}
+InfraresourceCPU(host):
+- name: {{.Env.mz}} - Infrastructure - cpu idle (host)
+- mz: {{.Env.mz}}
+InfraMemory(host):
+- name: {{.Env.mz}} - Infrastructure - memory available (host)
+- mz: {{.Env.mz}}
