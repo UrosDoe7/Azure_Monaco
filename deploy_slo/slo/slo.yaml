@@ -3,10 +3,11 @@ config:
 - Serviceavail: Service-avail.json
 - Serviceperf: Service-perf.json
 #- Infra-availability(process): Infra-availability(process).json
+- Infraavail(process): Infra-avail(process).json
 - Infraavail(host): Infra-avail(host).json
 - InfraresourceCPU(host): Infra-resourceCPU(host).json
 - InfraMemory(host): Infra-Memory(host).json
-- Infraavail(process):Infra-avail(process).json
+- 
 
 Appapdex:
 - name: {{.Env.mz}} - Application - performance
