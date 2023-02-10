@@ -1,5 +1,18 @@
 config:
-- Optimization-CPUUsage: Optimization-CPUUsage.json
-- 
-Optimization-CPUUsage:
-- name: Optimization - CPU Usage
+- appsUsers: ApplicationApdex-segment.json
+- dberros: DBerrors-segment.json
+- dbtime: DBresponse-segment.json
+- apierror: ServiceError-segment.json
+- apitime: ServiceResponse-segment.json
+
+appsUsers:
+- name: Probe - Apdex Users
+dberros:
+- name: Probe - Database without errors
+dbtime: 
+- name: Probe - Database with acceptable requests
+apierror: 
+- name: Probe - Service without errors
+apitime: 
+- name: Probe - Service with acceptable requests
+
