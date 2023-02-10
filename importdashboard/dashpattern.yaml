@@ -1,0 +1,6 @@
+config:
+- Mydash: "dashboard1.json"
+Mydash:
+- name: "{{.Env.dashname}}"
+- owner: "{{.Env.Email}}"
+- filterproblem: "{{.Env.MZ}}"
