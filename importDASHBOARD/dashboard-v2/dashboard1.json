@@ -1327,7 +1327,7 @@
         "height": 228
       },
       "tileFilter": {},
-      "entitySelector": "type(SERVICE),mzName{{.filterproblem}}"
+      "entitySelector": "type(SERVICE),mzName({{.filterproblem}})"
     }
   ]
 }
