@@ -1,0 +1,1333 @@
+{
+  "metadata": {
+    "configurationVersions": [
+      6
+    ],
+    "clusterVersion": "1.258.110.20230130-151402"
+  },
+  "dashboardMetadata": {
+    "name": "{{.name}}",
+    "shared": true,
+    "owner": "{{.owner}}",
+    "hasConsistentColors": false
+  },
+  "tiles": [
+    {
+      "name": "Image",
+      "tileType": "IMAGE",
+      "configured": true,
+      "bounds": {
+        "top": 0,
+        "left": 0,
+        "width": 304,
+        "height": 228
+      },
+      "tileFilter": {},
+      "image": "data:image/webp;base64,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"
+    },
+    {
+      "name": "User Sessions Query",
+      "tileType": "DTAQL",
+      "configured": true,
+      "bounds": {
+        "top": 684,
+        "left": 0,
+        "width": 570,
+        "height": 456
+      },
+      "tileFilter": {},
+      "customName": "Utilisateurs se loggant - non anonyme",
+      "query": "SELECT  userId AS \"users\" , count(userSessionId) AS \"log in/ nb connexions\" FROM usersession WHERE ((useraction.application='SED - MyPLM QUL' OR userevent.application='SED - MyPLM QUL' OR usererror.application='SED - MyPLM QUL')) AND userId IS NOT NULL  group by userId ORDER BY userId ASC",
+      "type": "TABLE",
+      "limit": 50
+    },
+    {
+      "name": "User Sessions Query",
+      "tileType": "DTAQL",
+      "configured": true,
+      "bounds": {
+        "top": 1140,
+        "left": 0,
+        "width": 570,
+        "height": 456
+      },
+      "tileFilter": {
+        "timeframe": "-1w"
+      },
+      "customName": "JS error with useractions",
+      "query": "SELECT Count(usersession.userSessionId) AS \"nb users\", usersession.userId AS \"single user\", useraction.name as \"interaction users\", useraction.javascriptErrorCount as \"javascript error\" FROM useraction where useraction.application IS \"SED - MyPLM QUL\" and useraction.javascriptErrorCount > 0 GROUP BY useraction.name,  useraction.javascriptErrorCount,usersession.userId ORDER BY count(usersession.userSessionId) DESC",
+      "type": "TABLE",
+      "limit": 50
+    },
+    {
+      "name": "User Sessions Query",
+      "tileType": "DTAQL",
+      "configured": true,
+      "bounds": {
+        "top": 1140,
+        "left": 570,
+        "width": 570,
+        "height": 456
+      },
+      "tileFilter": {},
+      "customName": "JS error with useractions",
+      "query": "SELECT userevent.page as \"Page\", COUNT(distinct userId) as \"number visits\", userevent.type AS \"events\" from usersession where useraction.application is \"SED - MyPLM QUL\" group by userevent.page, userevent.type",
+      "type": "TABLE",
+      "limit": 50
+    },
+    {
+      "name": "User Sessions Query",
+      "tileType": "DTAQL",
+      "configured": true,
+      "bounds": {
+        "top": 228,
+        "left": 608,
+        "width": 570,
+        "height": 266
+      },
+      "tileFilter": {
+        "timeframe": "-1w"
+      },
+      "customName": "nb total de connexion sur la semaine ",
+      "query": "SELECT  count(userSessionId) AS \"log in/ nb connexions\" FROM usersession WHERE ((useraction.application='SED - MyPLM QUL' OR userevent.application='SED - MyPLM QUL' OR usererror.application='SED - MyPLM QUL')) AND userId IS NOT NULL  ",
+      "type": "SINGLE_VALUE",
+      "timeFrameShift": "dynamic",
+      "limit": 50
+    },
+    {
+      "name": "User Sessions Query",
+      "tileType": "DTAQL",
+      "configured": true,
+      "bounds": {
+        "top": 1140,
+        "left": 1140,
+        "width": 646,
+        "height": 456
+      },
+      "tileFilter": {},
+      "customName": "Type d'erreurs",
+      "query": "SELECT count(usererror.name), usererror.name as \"error\" from usersession where useraction.application IS \"SED - MyPLM QUL\" group by usererror.name",
+      "type": "TABLE",
+      "limit": 50
+    },
+    {
+      "name": "SLO application apdex",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 2774,
+        "left": 0,
+        "width": 342,
+        "height": 152
+      },
+      "tileFilter": {
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "assignedEntities": [
+        "a857d18a-8015-3c10-821c-cf7814740974"
+      ],
+      "metric": "customTitle=SLO application apdex;"
+    },
+    {
+      "name": "User Sessions Query",
+      "tileType": "DTAQL",
+      "configured": true,
+      "bounds": {
+        "top": 228,
+        "left": 0,
+        "width": 608,
+        "height": 266
+      },
+      "tileFilter": {},
+      "customName": "nb total de connexions - - suivant timeframe appliquée",
+      "query": "SELECT  count(userSessionId) AS \"log in/ nb connexions\" FROM usersession WHERE ((useraction.application='SED - MyPLM QUL' OR userevent.application='SED - MyPLM QUL' OR usererror.application='SED - MyPLM QUL')) AND userId IS NOT NULL  ",
+      "type": "SINGLE_VALUE",
+      "limit": 50
+    },
+    {
+      "name": "User Sessions Query",
+      "tileType": "DTAQL",
+      "configured": true,
+      "bounds": {
+        "top": 912,
+        "left": 1140,
+        "width": 342,
+        "height": 228
+      },
+      "tileFilter": {},
+      "customName": "Nb d'erreurs",
+      "query": "SELECT count(usererror.name), usererror.name as \"error\" from usersession where useraction.application IS \"SED - MyPLM QUL\" group by usererror.name",
+      "type": "SINGLE_VALUE",
+      "limit": 50
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 532,
+        "left": 0,
+        "width": 1786,
+        "height": 152
+      },
+      "tileFilter": {},
+      "markdown": "--------\n# TOP 10\n## Login\n## Erreurs FRONT (HTTP + JS)\n--------"
+    },
+    {
+      "name": "Markdown",
+      "tileType": "MARKDOWN",
+      "configured": true,
+      "bounds": {
+        "top": 2204,
+        "left": 0,
+        "width": 1786,
+        "height": 152
+      },
+      "tileFilter": {},
+      "markdown": "--------\n# SLO - (Service Level Objective)\n--------"
+    },
+    {
+      "name": "Image",
+      "tileType": "IMAGE",
+      "configured": true,
+      "bounds": {
+        "top": 2356,
+        "left": 0,
+        "width": 342,
+        "height": 152
+      },
+      "tileFilter": {},
+      "image": "data:image/webp;base64,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"
+    },
+    {
+      "name": "User Sessions Query",
+      "tileType": "DTAQL",
+      "configured": true,
+      "bounds": {
+        "top": 1672,
+        "left": 0,
+        "width": 570,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Couloir de choix pièce",
+      "query": "SELECT FUNNEL(useraction.name IS \"loading of page /3dpassport/login\" as \"login\", useraction.name is \"click on pièce besoin catalogue (/3dspace/resources/6wvocab/access/predicatevalue?tenant=onpremise \" AS \"pièce\", useraction.name startswith \"click on pièce solution catalogue (https://pprod.3dsearch.electronics-defense.safran/federated/search?xrequestedwith=xmlhttprequest\" AS \"sélection de la pièce\") from usersession",
+      "type": "FUNNEL",
+      "limit": 50
+    },
+    {
+      "name": "Evolution Satisfaction Utilisateur",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 3230,
+        "left": 0,
+        "width": 342,
+        "height": 342
+      },
+      "tileFilter": {
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:apps.web.apdex.userType:splitBy()*100",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "GRAPH_CHART",
+        "global": {},
+        "rules": [
+          {
+            "matcher": "A",
+            "valueFormat": "0,000",
+            "properties": {},
+            "seriesOverrides": []
+          },
+          {
+            "matcher": "A:",
+            "properties": {
+              "color": "DEFAULT"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "displayName": "",
+            "visible": true
+          },
+          "yAxes": [
+            {
+              "visible": true,
+              "min": "64.8",
+              "max": "100",
+              "position": "LEFT",
+              "queryIds": [
+                "A"
+              ],
+              "defaultAxis": true
+            }
+          ]
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 99,
+                "color": "#7dc540"
+              },
+              {
+                "value": 98,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "visible": true
+          }
+        ],
+        "tableSettings": {},
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": ""
+      },
+      "metricExpressions": [
+        "resolution=null&(builtin:apps.web.apdex.userType:splitBy()*100):limit(100):names"
+      ]
+    },
+    {
+      "name": "Single value ",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 2926,
+        "left": 0,
+        "width": 342,
+        "height": 304
+      },
+      "tileFilter": {
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "builtin:apps.web.apdex.userType:splitBy()*100",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "SINGLE_VALUE",
+        "global": {
+          "hideLegend": false
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "unitTransform": "auto",
+            "valueFormat": "0,000",
+            "properties": {
+              "color": "DEFAULT",
+              "seriesType": "STACKED_AREA"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "visible": true
+          },
+          "yAxes": []
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "singleValueSettings": {
+          "showTrend": true,
+          "showSparkLine": true,
+          "linkTileColorToThreshold": true
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 99,
+                "color": "#7dc540"
+              },
+              {
+                "value": 98,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "queryId": "A",
+            "visible": true
+          }
+        ],
+        "tableSettings": {
+          "isThresholdBackgroundAppliedToCell": false
+        },
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": ""
+      },
+      "metricExpressions": [
+        "resolution=Inf&(builtin:apps.web.apdex.userType:splitBy()*100):limit(100):names",
+        "resolution=null&(builtin:apps.web.apdex.userType:splitBy()*100)"
+      ]
+    },
+    {
+      "name": "SLO DB performance",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 2774,
+        "left": 342,
+        "width": 456,
+        "height": 152
+      },
+      "tileFilter": {
+        "timeframe": "-1w"
+      },
+      "assignedEntities": [
+        "bf23c21f-0d53-38bb-b967-3a528040216c"
+      ],
+      "metric": "customTitle=SLO DB performance;"
+    },
+    {
+      "name": "DB SQL request < 100 ms",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 2926,
+        "left": 342,
+        "width": 456,
+        "height": 304
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):partition(perf,value(good,lt(100))):splitBy():count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy():count)*(100))",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "SINGLE_VALUE",
+        "global": {
+          "hideLegend": false
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "unitTransform": "auto",
+            "valueFormat": "0,000",
+            "properties": {
+              "color": "DEFAULT",
+              "seriesType": "COLUMN"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "visible": true
+          },
+          "yAxes": []
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "singleValueSettings": {
+          "showTrend": true,
+          "showSparkLine": true,
+          "linkTileColorToThreshold": true
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 99,
+                "color": "#7dc540"
+              },
+              {
+                "value": 98,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "queryId": "",
+            "visible": true
+          }
+        ],
+        "tableSettings": {
+          "isThresholdBackgroundAppliedToCell": false
+        },
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": "",
+        "foldTransformation": "TOTAL",
+        "foldAggregation": "AVG"
+      },
+      "metricExpressions": [
+        "resolution=null&(((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):partition(perf,value(good,lt(100))):splitBy():count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy():count)*(100))):limit(100):names:fold(avg)",
+        "resolution=null&(((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):partition(perf,value(good,lt(100))):splitBy():count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy():count)*(100)))"
+      ]
+    },
+    {
+      "name": "SLO DB success rate",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 2774,
+        "left": 798,
+        "width": 456,
+        "height": 152
+      },
+      "tileFilter": {
+        "timeframe": "-1w"
+      },
+      "assignedEntities": [
+        "4d9d42fe-ea49-3296-ad96-50ff31f43289"
+      ],
+      "metric": "METRICS=true;LEGEND=true;PROBLEMS=true;decimals=2;customTitle=SLO DB success rate;"
+    },
+    {
+      "name": "TOPLIST 10  du taux de succès - par ordre croissant",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 3230,
+        "left": 798,
+        "width": 456,
+        "height": 456
+      },
+      "tileFilter": {
+        "timeframe": "-1w",
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "metricSelector": "100 - builtin:service.errors.total.rate:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"):sort(value(auto,ascending)):limit(10)",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TABLE",
+        "global": {},
+        "rules": [
+          {
+            "matcher": "A",
+            "valueFormat": "0,000",
+            "properties": {},
+            "seriesOverrides": []
+          },
+          {
+            "matcher": "A:",
+            "properties": {
+              "color": "DEFAULT"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "visible": true
+          },
+          "yAxes": []
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 98,
+                "color": "#7dc540"
+              },
+              {
+                "value": 95,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "queryId": "A",
+            "visible": true
+          }
+        ],
+        "tableSettings": {},
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": ""
+      },
+      "metricExpressions": [
+        "resolution=Inf&(100 - builtin:service.errors.total.rate:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"):sort(value(auto,ascending)):limit(10)):limit(100):names"
+      ]
+    },
+    {
+      "name": "Single value - taux de requête SQL en succès",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 2926,
+        "left": 798,
+        "width": 456,
+        "height": 304
+      },
+      "tileFilter": {
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "100 - builtin:service.errors.total.rate:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy()",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "SINGLE_VALUE",
+        "global": {
+          "hideLegend": false
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "unitTransform": "auto",
+            "valueFormat": "0,000",
+            "properties": {
+              "color": "DEFAULT",
+              "seriesType": "LINE"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "visible": true
+          },
+          "yAxes": []
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "singleValueSettings": {
+          "showTrend": true,
+          "showSparkLine": true,
+          "linkTileColorToThreshold": true
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 98,
+                "color": "#7dc540"
+              },
+              {
+                "value": 95,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "queryId": "",
+            "visible": true
+          }
+        ],
+        "tableSettings": {
+          "isThresholdBackgroundAppliedToCell": false
+        },
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": ""
+      },
+      "metricExpressions": [
+        "resolution=Inf&(100 - builtin:service.errors.total.rate:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy()):limit(100):names",
+        "resolution=null&(100 - builtin:service.errors.total.rate:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy())"
+      ]
+    },
+    {
+      "name": "SLO Service availability",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 2774,
+        "left": 1254,
+        "width": 456,
+        "height": 152
+      },
+      "tileFilter": {
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "assignedEntities": [
+        "fd81db6c-15a1-34a1-a907-4a6dad191f4c"
+      ],
+      "metric": "customTitle=SLO Service availability;"
+    },
+    {
+      "name": "TOP 10 des Services comportant le plus d'erreurs",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 3230,
+        "left": 1254,
+        "width": 456,
+        "height": 456
+      },
+      "tileFilter": {},
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "metricSelector": "((100)*(builtin:service.errors.server.successCount:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"))/(builtin:service.requestCount.server:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"))):sort(value(auto,ascending)):limit(10)",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TABLE",
+        "global": {
+          "hideLegend": false
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "unitTransform": "auto",
+            "valueFormat": "0,000",
+            "properties": {
+              "color": "DEFAULT",
+              "seriesType": "LINE"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "visible": true
+          },
+          "yAxes": []
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 98,
+                "color": "#7dc540"
+              },
+              {
+                "value": 95,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "queryId": "A",
+            "visible": true
+          }
+        ],
+        "tableSettings": {
+          "isThresholdBackgroundAppliedToCell": false
+        },
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": ""
+      },
+      "metricExpressions": [
+        "resolution=Inf&(((100)*(builtin:service.errors.server.successCount:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"))/(builtin:service.requestCount.server:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"))):sort(value(auto,ascending)):limit(10)):limit(100):names"
+      ]
+    },
+    {
+      "name": "Single Value - Taux de réussite sur les Services",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 2926,
+        "left": 1254,
+        "width": 456,
+        "height": 304
+      },
+      "tileFilter": {
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "(100)*(builtin:service.errors.server.successCount:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy())/(builtin:service.requestCount.server:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy())",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "SINGLE_VALUE",
+        "global": {
+          "hideLegend": false
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "unitTransform": "auto",
+            "valueFormat": "0,000",
+            "properties": {
+              "color": "DEFAULT",
+              "seriesType": "LINE"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "visible": true
+          },
+          "yAxes": []
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "singleValueSettings": {
+          "showTrend": true,
+          "showSparkLine": true,
+          "linkTileColorToThreshold": true
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 98,
+                "color": "#7dc540"
+              },
+              {
+                "value": 95,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "queryId": "",
+            "visible": true
+          }
+        ],
+        "tableSettings": {
+          "isThresholdBackgroundAppliedToCell": false
+        },
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": ""
+      },
+      "metricExpressions": [
+        "resolution=Inf&((100)*(builtin:service.errors.server.successCount:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy())/(builtin:service.requestCount.server:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy())):limit(100):names",
+        "resolution=null&((100)*(builtin:service.errors.server.successCount:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy())/(builtin:service.requestCount.server:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy()))"
+      ]
+    },
+    {
+      "name": "TOP 10 DB les plus lentes avec taux ",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 3230,
+        "left": 342,
+        "width": 456,
+        "height": 456
+      },
+      "tileFilter": {
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "metricSelector": "((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):partition(perf,value(good,lt(100))):splitBy(\"dt.entity.service\"):count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"):count)*(100)):sort(value(auto,ascending)):limit(10)",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TABLE",
+        "global": {},
+        "rules": [
+          {
+            "matcher": "A",
+            "valueFormat": "0,000",
+            "properties": {},
+            "seriesOverrides": []
+          },
+          {
+            "matcher": "A:",
+            "properties": {
+              "color": "DEFAULT"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "visible": true
+          },
+          "yAxes": []
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 99,
+                "color": "#7dc540"
+              },
+              {
+                "value": 98,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "queryId": "A",
+            "visible": true
+          }
+        ],
+        "tableSettings": {},
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": "",
+        "foldTransformation": "TOTAL",
+        "foldAggregation": "AVG"
+      },
+      "metricExpressions": [
+        "resolution=null&(((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):partition(perf,value(good,lt(100))):splitBy(\"dt.entity.service\"):count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"DATABASE_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"):count)*(100)):sort(value(auto,ascending)):limit(10)):limit(100):names:fold(avg)"
+      ]
+    },
+    {
+      "name": "SLO Service performance",
+      "tileType": "SLO",
+      "configured": true,
+      "bounds": {
+        "top": 2774,
+        "left": 1710,
+        "width": 494,
+        "height": 152
+      },
+      "tileFilter": {
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "assignedEntities": [
+        "6f33c6e0-308b-32b1-9e01-35e6792cf150"
+      ],
+      "metric": "customTitle=SLO Service performance;"
+    },
+    {
+      "name": "Single Value - Taux de Service rapide",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 2926,
+        "left": 1710,
+        "width": 494,
+        "height": 304
+      },
+      "tileFilter": {
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [],
+          "metricSelector": "((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):partition(perf,value(good,lt(500))):splitBy():count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy():count)*(100))",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "SINGLE_VALUE",
+        "global": {
+          "hideLegend": false
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "unitTransform": "auto",
+            "valueFormat": "0,000",
+            "properties": {
+              "color": "DEFAULT",
+              "seriesType": "LINE"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "visible": true
+          },
+          "yAxes": []
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "singleValueSettings": {
+          "showTrend": true,
+          "showSparkLine": true,
+          "linkTileColorToThreshold": true
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 98,
+                "color": "#7dc540"
+              },
+              {
+                "value": 95,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "queryId": "",
+            "visible": true
+          }
+        ],
+        "tableSettings": {
+          "isThresholdBackgroundAppliedToCell": false
+        },
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": "",
+        "foldTransformation": "TOTAL",
+        "foldAggregation": "AVG"
+      },
+      "metricExpressions": [
+        "resolution=null&(((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):partition(perf,value(good,lt(500))):splitBy():count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy():count)*(100))):limit(100):names:fold(avg)",
+        "resolution=null&(((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):partition(perf,value(good,lt(500))):splitBy():count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy():count)*(100)))"
+      ]
+    },
+    {
+      "name": "TOP 10 des Services les plus lents",
+      "tileType": "DATA_EXPLORER",
+      "configured": true,
+      "bounds": {
+        "top": 3230,
+        "left": 1710,
+        "width": 494,
+        "height": 456
+      },
+      "tileFilter": {
+        "timeframe": "-1w",
+        "managementZone": {
+          "id": "1763014325011363660",
+          "name": "SED - MyPLM QUL"
+        }
+      },
+      "customName": "Data explorer results",
+      "queries": [
+        {
+          "id": "A",
+          "timeAggregation": "DEFAULT",
+          "splitBy": [
+            "dt.entity.service"
+          ],
+          "metricSelector": "((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):partition(perf,value(good,lt(500))):splitBy(\"dt.entity.service\"):count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"):count)*(100)):sort(value(auto,ascending)):limit(10)",
+          "rate": "NONE",
+          "enabled": true
+        }
+      ],
+      "visualConfig": {
+        "type": "TABLE",
+        "global": {
+          "hideLegend": false
+        },
+        "rules": [
+          {
+            "matcher": "A:",
+            "unitTransform": "auto",
+            "valueFormat": "0,000",
+            "properties": {
+              "color": "DEFAULT",
+              "seriesType": "LINE"
+            },
+            "seriesOverrides": []
+          }
+        ],
+        "axes": {
+          "xAxis": {
+            "visible": true
+          },
+          "yAxes": []
+        },
+        "heatmapSettings": {
+          "yAxis": "VALUE"
+        },
+        "singleValueSettings": {
+          "showTrend": true,
+          "showSparkLine": true,
+          "linkTileColorToThreshold": true
+        },
+        "thresholds": [
+          {
+            "axisTarget": "LEFT",
+            "rules": [
+              {
+                "value": 98,
+                "color": "#7dc540"
+              },
+              {
+                "value": 95,
+                "color": "#f5d30f"
+              },
+              {
+                "value": 0,
+                "color": "#dc172a"
+              }
+            ],
+            "queryId": "A",
+            "visible": true
+          }
+        ],
+        "tableSettings": {
+          "isThresholdBackgroundAppliedToCell": false
+        },
+        "graphChartSettings": {
+          "connectNulls": false
+        },
+        "honeycombSettings": {
+          "showHive": true,
+          "showLegend": true,
+          "showLabels": false
+        }
+      },
+      "queriesSettings": {
+        "resolution": "",
+        "foldTransformation": "TOTAL",
+        "foldAggregation": "AVG"
+      },
+      "metricExpressions": [
+        "resolution=null&(((builtin:service.response.time:avg:toUnit(MicroSecond,MilliSecond):filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):partition(perf,value(good,lt(500))):splitBy(\"dt.entity.service\"):count:default(0))/(builtin:service.response.time:avg:filter(and(or(in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_SERVICE~\")\")),in(\"dt.entity.service\",entitySelector(\"type(service),serviceType(~\"WEB_REQUEST_SERVICE~\")\"))))):splitBy(\"dt.entity.service\"):count)*(100)):sort(value(auto,ascending)):limit(10)):limit(100):names:fold(avg)"
+      ]
+    },
+    {
+      "name": "Image",
+      "tileType": "IMAGE",
+      "configured": true,
+      "bounds": {
+        "top": 2584,
+        "left": 76,
+        "width": 152,
+        "height": 152
+      },
+      "tileFilter": {},
+      "image": "data:image/webp;base64,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"
+    },
+    {
+      "name": "Image",
+      "tileType": "IMAGE",
+      "configured": true,
+      "bounds": {
+        "top": 2584,
+        "left": 722,
+        "width": 152,
+        "height": 152
+      },
+      "tileFilter": {},
+      "image": "data:image/webp;base64,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"
+    },
+    {
+      "name": "Image",
+      "tileType": "IMAGE",
+      "configured": true,
+      "bounds": {
+        "top": 2584,
+        "left": 1634,
+        "width": 152,
+        "height": 152
+      },
+      "tileFilter": {},
+      "image": "data:image/webp;base64,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"
+    },
+    {
+      "name": "Problems 3DX Services",
+      "tileType": "OPEN_PROBLEMS",
+      "configured": true,
+      "bounds": {
+        "top": 0,
+        "left": 304,
+        "width": 304,
+        "height": 228
+      },
+      "tileFilter": {},
+      "entitySelector": "type(SERVICE),mzName{{.filterproblem}}"
+    }
+  ]
+}
